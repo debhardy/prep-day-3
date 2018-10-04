@@ -10,8 +10,8 @@ else {
 
 //(init; condition; post-loop)
 for(var i = 0; i < 100; i++) {
-    var y = i * 2;
-    if(y < 101) {
-    console.log("the number is", y)
+    var remainder = i % 2;
+    if(remainder === 0) {
+    console.log(i, "is even")
     }
 }
